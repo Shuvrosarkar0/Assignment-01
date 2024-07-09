@@ -11,6 +11,9 @@
   .banner{
     text-align: center;
   }
+  .text-center{
+    text-align: center;
+  }
   .banner-bg-pic{
     background-size: 100%;
     background-image: url(../assets/Hero-bg.png);
@@ -35,11 +38,38 @@
     margin: 21px, 24px;
     font-weight: 600;
     font-size: 20px;
-    
-    
   }
   .section-title{
     font-weight: 800;
     font-size: 32px;
     color:#0D1321 ;
   }
+/* .main style */
+.skills{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* display: flex; */
+}
+.section-title{
+  font-weight: 800;
+  font-size: 32px;
+  color:#0D1321 ;
+  margin-top: 80px;
+}
+.section-description{
+    text-align: center;
+    margin-top: 24px;
+    color:#0D1321 ;
+}
+.skill-container{
+    display: inline;
+    display: block;
+    gap: 32px;
+    
+}
+.skill{
+    display: flex;
+    /* padding: 48px; */
+    margin: 48px;
+}
