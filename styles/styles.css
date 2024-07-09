@@ -73,3 +73,29 @@
     /* padding: 48px; */
     margin: 48px;
 }
+.skills-contain{
+    display: flex;
+    margin-top: 48px;
+    gap: 24px;
+    
+}
+.skill-item{
+    padding: 40px;
+    border-radius: 16px;
+    
+
+}
+.skill-bg-html{
+background-color: rgba(255, 76, 30, 0.05);
+}
+.skill-bg-css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.skill-bg-js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+.btn-thirdly{
+    padding: 24px 0px 40px 40px;
+    text-decoration: underline;
+    text-align: start;
+}
