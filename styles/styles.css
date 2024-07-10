@@ -19,15 +19,22 @@
   }
   .banner-bg-pic{
     background-image: url(../assets/Hero-bg.png);
-    width: 1440px;
-    height: 652px;
-    /* background-position: center; */
+    height: 600px;
+  
+  
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
   .banner-profile-pic{
     margin-bottom: 32px;
+    
   }
+  .banner-content{
+    width: 1000px;
+    margin: auto;
+  }
+ 
   .banner-title{
     font-size: 48px;
     font-weight: 800;
@@ -45,6 +52,14 @@
     margin: 21px, 24px;
     font-weight: 600;
     font-size: 20px;
+  }
+  .main-section{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 50px;
   }
   .section-title{
     font-weight: 800;
@@ -64,10 +79,19 @@
   color:#0D1321 ;
   margin-top: 80px;
 }
+.main-title{
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
 .section-description{
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin-top: 24px;
     color:#0D1321 ;
+   
+
 }
 .skill-container{
     display: inline;
@@ -77,8 +101,16 @@
 }
 .skill{
     display: flex;
+    justify-content: space-between;
     /* padding: 48px; */
     margin: 48px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.skill-content{
+  margin: 20px;
+  width: 400px;
 }
 .skills-contain{
     display: flex;
@@ -91,6 +123,12 @@
     border-radius: 16px;
     
 
+}
+.main-current{
+  justify-content: center;
+  margin: auto;
+  width: 1000px;
+  background-color: #FFFFFF;
 }
 .skill-bg-html{
 background-color: rgba(255, 76, 30, 0.05);
@@ -109,4 +147,10 @@ background-color: rgba(255, 76, 30, 0.05);
 .target{
   display: flex;
   gap: 24px;
+}
+
+.video{
+  border: solid 1px rgb(107, 102, 102);
+  padding: 25px;
+  border-radius: 10px;
 }
