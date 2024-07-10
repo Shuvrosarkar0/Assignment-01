@@ -6,7 +6,10 @@
   /* header style */
   .display{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .btn-primary{
+    margin-left: 768px;
   }
   .banner{
     text-align: center;
@@ -15,8 +18,12 @@
     text-align: center;
   }
   .banner-bg-pic{
-    background-size: 100%;
     background-image: url(../assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .banner-profile-pic{
     margin-bottom: 32px;
@@ -98,4 +105,8 @@ background-color: rgba(255, 76, 30, 0.05);
     padding: 24px 0px 40px 40px;
     text-decoration: underline;
     text-align: start;
+}
+.target{
+  display: flex;
+  gap: 24px;
 }
